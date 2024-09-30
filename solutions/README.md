@@ -20,3 +20,20 @@ This is a simple JavaScript program that prompts the user to input student marks
 ## How to Test
 - You can test different inputs to see how the program responds to valid and invalid entries.
 
+
+2
+
+# Speed Detector
+
+## Description
+This JavaScript program simulates a speed detector that checks if a car is exceeding the speed limit and assigns demerit points accordingly. If the driver has more than 12 demerit points, their license is suspended.
+
+## How to Run
+1. Open the terminal or command prompt.
+2. Navigate to the project directory.
+3. Run the command `node solution2.js` to see the output for different speed inputs.
+
+## How it Works
+- If the speed is less than 70, it prints `"Ok"`.
+- For every 5 km/h above 70, it assigns 1 demerit point.
+- If the driver has more than 12 demerit points, it prints `"License suspended"`.
